@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatapp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+     <link rel="stylesheet" href="chatapp.css">
+</head>
+
+<body>
+  
+    <a class="logout" href="/login/login.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+    
+    <div class="chatbox" id="chatbox">
+        <!-- <li class="msges">hiii</li>
+        <li class="msges">how r u </li> -->
+    </div>
+
+    <div class="replybox">
+        <input type="text" id="msginput" placeholder="type your message">
+        <button  id="sendBtn">Send</button>
+    </div>
+
+    <div class="grpdiv">
+        <button class="makenewgrp" id="makenewgrp">Make New Group</button>
+        <hr>
+        <h3>Group Names</h3>
+        <div class="grpnamelist">
+            <!-- <button class="grpname" id="grpId">Group 1</button>
+            <button class="grpname" id="grpId">Group 2</button> -->
+        </div>
+        
+    </div>
+
+    <div class="title hide" >
+        <input class="grptitle" id="grptitle" type="text" placeholder="Group Name ">
+        <button class="addfrnds" id="addfrnds">Add Frnds</button>
+    </div>
+
+    <div class="frndlist hide">
+        <h3>Add Frnds to Squad </h3>
+        <hr>
+        <div class="addfrndlist">
+            <!-- <button class="addfrnd" id="userId">Add  frnd 1</button>
+            <button class="addfrnd" id="userId">Add  frnd 1</button> -->
+        </div>
+        <hr>
+        <div >
+            <button id="grpbtnfinal" class="grpbtnfinal">Make Group</button>
+        </div>
+    </div>
+    <div class="activegrp">
+        <h2>${} is active </h2>
+        <!-- name of active grp -->
+    </div>
+    <div class="greet">
+        <!-- greetign msg woth welcome name  -->
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+
+    <script src="chatapp.js"></script>
+</body>
+
+</html>

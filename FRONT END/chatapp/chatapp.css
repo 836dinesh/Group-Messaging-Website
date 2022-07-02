@@ -1,0 +1,121 @@
+.chatbox {
+    margin: auto;
+    border-style: groove;
+    border-radius: 8px  ;
+    overflow: auto;
+    width: 50%;
+    height: 300px;
+    left: 20%;
+
+}
+ .msges{
+    
+    border-style: groove;
+    border-radius: 8px  ;
+    width: 70%;
+    margin: 10px;
+    list-style: none;
+    padding: 5px;
+ }
+ 
+ .replybox {
+    margin-top: -22px;
+    border-style: groove;
+    border-radius: 8px  ;
+    padding: 20px;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+ }
+ #msginput{
+    width: 290px;
+    padding: 5px;
+ }
+ button {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+ }
+ .grpdiv {
+   border-style: groove;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   font-family: arial;
+   width: 20%;
+   position: absolute;
+   left: 77%;
+   top: 10%;
+ }
+.grpnamelist {
+  overflow: auto;
+  height: 120px;
+
+}
+ .grpname {
+   margin-bottom: 10px;
+ }
+ .makenewgrp {
+   width: 175px;
+ }
+
+ .title {
+   border-style: groove;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   font-family: arial;
+   width: 20%;
+   position: absolute;
+   left: 77%;
+   top: 10%;
+ }
+ .addfrnds {
+   margin-top:15px ;
+ }
+ .frndlist {
+   border-style: groove;
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   font-family: arial;
+   width: 20%;
+   position: absolute;
+   left: 77%;
+   top: 10%;
+   
+ }
+ .addfrnd {
+   margin-bottom: 10px;
+ }
+ .addfrndlist {
+   overflow-y: auto;
+   height: 200px;
+ }
+ .grpbtnfinal {
+   width: 160px;
+ }
+ .hide {
+  display: none;
+ }
+ .logout {
+  color: white;
+  position: absolute;
+  left: 96%;
+  top: 3%;
+  font-size: larger;
+ }
+ .greet {
+  font-family: cursive;
+  width:200px;
+  position: absolute;
+  top: 0%;
+ }
+ .activegrp{
+  
+  font-family: cursive;
+  width:150px;
+  position: absolute;
+  top: 50%;
+  
+ }
